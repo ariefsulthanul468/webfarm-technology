@@ -43,7 +43,7 @@ const AboutSectionOne = () => {
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Innovative Technology Stacks" />
                     <List text="User-Centric Approach" />
-                    <List text="Knowledge-Rich Documentation" />
+                    <List text="Knowledge-Rich Documentation  " />
                   </div>
                 </div>
               </div>
