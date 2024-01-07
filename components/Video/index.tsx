@@ -14,7 +14,7 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="At Webfarm Technology, your success is our priority. We're not just a service; we're your partners in the journey towards digital excellence. Let's redefine what's possible, together."
           center
           mb="80px"
         />

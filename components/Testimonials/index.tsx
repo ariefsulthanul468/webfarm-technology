@@ -5,30 +5,30 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Sulthanul Arief",
+    designation: "Founder @Webfarm Technology",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
-    star: 5,
+      "Meet Arief, the visionary Founder and CEO of Webfarm Technology. With a passion for innovation and a strong background as a full-stack developer, Arief brings over two years of hands-on experience to the helm. His leadership is marked by a commitment to pushing boundaries and crafting digital solutions that redefine excellence.",
+    image: "/images/testimonials/arief.jpg",
+
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Syed Imran",
+    designation: "Managing Director @Webfarm Technology",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
-    star: 5,
+      "At the helm of financial precision and strategic management is Syed Imran, our Accounts and Managing Director. With a keen eye for detail and a wealth of experience, Syed plays a pivotal role in steering Webfarm Technology towards sustainable growth. His adept financial acumen and leadership skills ensure the smooth operation of our business, making him an invaluable asset to the team.",
+    image: "/images/testimonials/imran.jpg",
+
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Fahd",
+    designation: "Founder @Webfarm Technology",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
+      "Meet Fahd, the driving force behind Webfarm Technology. As the Founder and CEO, Fahd combines a wealth of experience as a software developer with two years of dedicated practice. His visionary leadership sets the tone for our dynamic team, steering us towards excellence in every endeavor. Fahd's commitment to innovation and strategic thinking shapes the ethos of Webfarm Technology.",
+    image: "/images/testimonials/fahd.jpg",
+
   },
 ];
 
@@ -37,7 +37,7 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
+          title="Teams"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           center
         />

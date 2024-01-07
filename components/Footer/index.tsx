@@ -1,8 +1,9 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-
+const year = new Date().getFullYear()
 const Footer = () => {
+
   return (
     <>
       <footer
@@ -12,14 +13,14 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[200px] lg:mb-16">
+              <div className="mb-12 mt-[-90px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="/images/logo/logo1.png"
                     alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
+                    className=" dark:hidden"
+                    width={100}
+                    height={10}
                   />
                   <Image
                     src="/images/logo/logo.png"
@@ -30,8 +31,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                   Elevate your online presence with WebFarm Technology. We specialize in cutting-edge web hosting solutions, ensuring seamless performance, robust security, and expert support. Transform your digital experience and thrive in the ever-evolving online landscape with WebFarm Technology.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -199,11 +199,9 @@ const Footer = () => {
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
+            
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and{" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
-                Next.js Templates
-              </a>
+            {year} Arief Headphones All rights reserverd
             </p>
           </div>
         </div>
